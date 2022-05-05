@@ -1,0 +1,165 @@
+body {
+  background-color: #5c5b59 !important;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.menuContainer {
+  background-color: #e3e5e8 !important;
+  overflow: scroll;
+}
+.inputTag {
+  width: 550px !important;
+}
+.searchIconContainer {
+  width: fit-content !important;
+  margin-left: 5px;
+}
+.dropDownImg {
+  width: 30px;
+  height: 30px;
+  margin-left: 12px;
+}
+.menuMobileControl {
+  transform: translate(0px) !important;
+  transition: transform 0.3s;
+}
+.logoImg {
+  width: 40px;
+  height: 40px;
+}
+.logoControl {
+  width: max-content !important;
+}
+@media (max-width: 576px) {
+  .inputBoxControl {
+    display: none !important;
+  }
+  .menuContainer {
+    position: absolute;
+    width: 200px !important;
+    transform: translate(-200px);
+    z-index: 2001;
+    transition: transform 0.3s;
+  }
+}
+.productHeader {
+  position: sticky;
+  top: 8px;
+  z-index: 2000;
+}
+.cardItems:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
+.cardItems:active {
+  transform: scale(0.95);
+  transition: transform 0.3s;
+}
+.saleItemImg {
+  width: 200px;
+  height: 450px;
+  margin-top: -180px;
+  z-index: 1000;
+}
+@media (max-width: 900px) {
+  .saleItemImg {
+    width: 150px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .saleItemImg {
+    width: 100px;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .saleItemImg {
+    width: 150px;
+    height: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .inputBoxControl {
+    width: 300px;
+  }
+  .inputTag {
+    width: 252px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .theBestSaleTable {
+    height: 459px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .theBestSaleTable {
+    height: 333px !important;
+  }
+}
+@media (max-width: 820px) {
+  .theBestSaleTable {
+    height: 324px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .theBestSaleTable {
+    margin-top: 10px;
+    height: 407px !important;
+  }
+}
+
+/* forAdminFormStart */
+
+/* forBootstrapProjectDataTable */
+.maximize {
+  position: absolute;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9px;
+  z-index: 2002;
+}
+.tableCardMinimize {
+  display: none;
+  font-size: 20px;
+}
+
+ul {
+  user-select: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+li :hover {
+  background-color: rgb(13,110,253);
+  color: white;
+}
+
+@media (max-width: 1025px) {
+  .inputBarForMedia {
+    width: 450px !important;
+    margin-right: -10px !important;
+  }
+  .totalCustomer {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .inputBarForMedia {
+    width: 260px !important;
+  }
+  .totalCustomer {
+    font-size: 30px !important;
+  }
+}

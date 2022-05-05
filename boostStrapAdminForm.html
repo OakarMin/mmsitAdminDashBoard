@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="feather-icons-web/feather.css">
+    <link rel="stylesheet" href="boostrapProject.css"/>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-12 menuContainer">
+          <!-- Menu Logo & Header start -->
+          <div class="menuHeader mt-2 d-flex justify-content-between p-1 rounded-1" style="background-color: #edeceb;">
+            <div class="logoControl">
+              <img src="photo/download.jpeg" class="logoImg rounded" alt="" />
+              <label for="logoImg"><h4 class="text-primary">Shop</h4></label>
+            </div>
+            <button class="btn btn-primary crossButton d-block d-md-none">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <!-- Menu Logo & Header End -->
+
+          <!-- Start Ui List  -->
+          <ul class=" mt-4">
+            <!-- Dash Board Start -->
+            <li class="dashBoard test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-home" style="font-size: 25px;"></i>
+              <span class="" style="font-size: 25px;">Dash Board</span>
+              </div>
+            </li>
+            <!-- Dash Board End -->
+            <!-- Todays Orders -->
+            <li class="todayOrders test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="todayOrderBox">
+                  <i class="feather feather-shopping-bag" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Today Orders</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">4</span>
+              </div>
+            </li>
+            <!-- Todays Orders End -->
+            <!-- Recent Items Start -->
+            <li class="recentItems test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-grid" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Recent Items</span>
+              </div>
+            </li>
+            <!-- Recent Items End -->
+            <!-- Data Analysis Start -->
+            <li class="dataAnlysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-pie-chart" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Data Analysis</span>
+              </div>
+            </li>
+            <!-- Data Analysis End -->
+            <!-- Plane Page Start -->
+            <li class="planePage test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-file" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Plane Page</span>
+              </div>
+            </li>
+            <!-- Plane Page End -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start Item Management -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              ITEM MANAGEMENT
+            </li>
+            <!-- End Item Management -->
+            <!-- Create New Item -->
+            <li class="createNewItem test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-plus-circle" style="font-size: 25px;"></i>
+              <span class="" style="font-size: 25px;">Create New Item</span>
+              </div>
+            </li>
+            <!-- End Create New Item -->
+            <!-- Start Item List -->
+            <li class="itemList test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-list" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Item Lists</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">15</span>
+            </li>
+            <!-- End Item List -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start user management -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              USER MANAGEMENT
+            </li>
+            <!-- End user management -->
+            <!-- Start create user -->
+            <li class="createUser test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-plus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Create User</span>
+              </div>
+            </li>
+            <!-- End create user -->
+            <!-- Start manage user -->
+            <li class="manageUse test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-users" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Manage Users</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">150</span>
+            </li>
+            <!-- End manage user -->
+            <!-- Start baned user -->
+            <li class="banedUser test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-minus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Baned Users</span>
+              </div>
+            </li>
+            <!-- End baned user -->
+            <!-- Start user analysis -->
+            <li class="userAnalysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-crosshair" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">User Analysis</span>
+              </div>
+            </li>
+            <!-- End user analysis -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start Inventory Header -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              INVENTORY
+            </li>
+            <!-- End Inventory Header -->
+            <!-- Start create new stock -->
+            <li class="createNewStock test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-file-plus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Create New Stock</span>
+              </div>
+            </li>
+            <!-- End create new stock -->
+            <!-- Start all stock -->
+            <li class="allStock test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-gift" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">All Stock</span>
+              </div>
+            </li>
+            <!-- End all stock -->
+            <!-- Start out of stock -->
+            <li class="outOfStock test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-archive" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Out of Stock</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">200</span>
+            </li>
+            <!-- End out of stock -->
+            <!-- Start stock analysis -->
+            <li class="stockAnalysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-layers" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Stock Analysis</span>
+              </div>
+            </li>
+            <!-- End stock analysis -->
+            <!-- Start Spacing -->
+             <li class="spacing p-2"></li>
+             <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start User Profile Header -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              YOUR PROFILE
+            </li>
+            <!-- End User Profile Header -->
+            <!-- Start change password -->
+            <li class="changePasswords test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-lock" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Change Password</span>
+              </div>
+            </li>
+            <!-- End change password -->
+            <!-- Start edit profile -->
+            <li class="editProfile test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-check" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Edit Profile</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9 col-12 productContainer bg-info">
+          <div class="col-12 bg-primary p-lg-4 p-2 rounded mt-2 d-flex justify-content-between productHeader">
+            <div class="menuBarControl d-block d-md-none">
+              <button class="btn btn-primary">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="inputBoxControl row justify-content-between">
+              <div class="input-group inputTag inputBarForMedia">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="searchIconContainer p-0">
+                <button class="btn btn-light">
+                  <i class="searchIcon fas fa-search text-primary"></i>
+                </button>
+              </div>
+            </div>
+            <div class="dropDownContainer">
+              <div class="dropdown bg-light rounded">
+                <img
+                  src="photo/download.jpeg"
+                  class="dropDownImg rounded-circle"
+                  alt=""
+                />
+                <button
+                  class="btn btn-light dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- naviBarStart -->
+            <div class="col-12 naviBar">
+              <div class="card mt-2">
+                <div class="card-body">
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item mainPage"><a href="boostrapProject.html">Main Page</a></li>
+                      <li class="breadcrumb-item"><a href="bootstrapProjectdataTable.html" class="">Item List</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Add Item</li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!-- naviBarEnd -->
+            <!-- formStart -->
+            <div class="col-lg-9 col-12">
+              <div class="card mt-2">
+                <div class="card-body">
+                  <!-- headerStart -->
+                  <div class="header d-flex justify-content-between align-items-center">
+                    <div class="plusIconAndHeader d-flex justify-content-between align-items-center" style="width: 150px;">
+                      <i class=" feather-plus-circle text-primary" style="font-size: 25px;"></i>
+                      
+                      <h4 class="mb-0">Add Item</h4>
+                    </div>
+                    <div class="menuIcon" style="width: fit-content;">
+                        <i class="feather-menu btn btn-outline-primary menuBtnHeader " style="font-size: 25px;"></i>
+                        <a href="bootstrapProjectdataTable.html" class="dataTableJumperLink"></a>
+                    </div>
+                  </div>
+                  <hr>
+                  <!-- headerEnd -->
+                  <div class="row">
+                    <div class="col-lg-6 col-12">
+                      <div class="forPhotoUpload mb-2">
+                        <label for="fileControl">
+                          Photo Upload <i class=" feather-info"></i>
+                        </label>
+                        <input type="file" class="fileControl form-control mt-2" accept=".jpg,.png">
+                      </div>
+                      <div class="forItemName mb-2">
+                        <label for="itemName">Item Name</label>
+                        <input type="text" class="itemName form-control mt-2">
+                      </div>
+                      <div class="forItemType mb-2">
+                        <label for="itemType">Item Type</label>
+                        <select class="form-select itemType mt-2" aria-label="Default select example">
+                          <option selected disabled>Open this select menu</option>
+                          <option value="1">ကုန်ဆို</option>
+                          <option value="2">convenience</option>
+                        </select>
+                      </div>
+                      <div class="forItemType mb-2">
+                        <label for="itemType">Main Category</label>
+                        <select class="form-select mainCategory itemType mt-2" aria-label="Default select example">
+                          <option selected disabled>Select Category</option>
+                        </select>
+                      </div>
+                      <div class="forItemType mb-2">
+                        <label for="itemType">Sub Category</label>
+                        <select class="form-select subCategory itemType mt-2" aria-label="Default select example">
+                          <option selected disabled>Please first choose on Main Category</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-6 mb-2">
+                          <label for="itemQuantity">Item Quantity</label>
+                          <input type="" class="form-control mt-2 itemQuantity">
+                        </div>
+                        <div class="col-6 mb-2">
+                          <label for="unit">Unit</label>
+                          <select class="form-select itemType mt-2" aria-label="Default select example">
+                            <option selected>Unit</option>
+                            <option value="1">ကုန်ဆို</option>
+                            <option value="2">convenience</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="price mb-2">
+                        <label for="price">Price</label>
+                        <input type="number" name="" class="price form-control">
+                      </div>
+                      <div class="comment">
+                        <label for="commentBox">Comment Box</label>
+                        <textarea name="" class="commentBox form-control" cols="30" rows="8.8"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="fontawesome-free-5.15.4-web/js/all.min.js"></script>
+    <script src="feather-icons-web/demo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="booststrapAdminForm.js"></script>
+  </body>
+</html>

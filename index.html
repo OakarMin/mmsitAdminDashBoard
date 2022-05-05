@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="feather-icons-web/feather.css">
+    <link rel="stylesheet" href="boostrapProject.css"/>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-12 menuContainer">
+          <!-- Menu Logo & Header start -->
+          <div class="menuHeader mt-2 d-flex justify-content-between p-1 rounded-1" style="background-color: #edeceb;">
+            <div class="logoControl">
+              <img src="photo/download.jpeg" class="logoImg rounded" alt="" />
+              <label for="logoImg"><h4 class="text-primary">Shop</h4></label>
+            </div>
+            <button class="btn btn-primary crossButton d-block d-md-none">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <!-- Menu Logo & Header End -->
+
+          <!-- Start Ui List  -->
+          <ul class=" mt-4">
+            <!-- Dash Board Start -->
+            <li class="dashBoard test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-home" style="font-size: 25px;"></i>
+              <span class="" style="font-size: 25px;">Dash Board</span>
+              </div>
+            </li>
+            <!-- Dash Board End -->
+            <!-- Todays Orders -->
+            <li class="todayOrders test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="todayOrderBox">
+                  <i class="feather feather-shopping-bag" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Today Orders</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">4</span>
+              </div>
+            </li>
+            <!-- Todays Orders End -->
+            <!-- Recent Items Start -->
+            <li class="recentItems test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-grid" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Recent Items</span>
+              </div>
+            </li>
+            <!-- Recent Items End -->
+            <!-- Data Analysis Start -->
+            <li class="dataAnlysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-pie-chart" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Data Analysis</span>
+              </div>
+            </li>
+            <!-- Data Analysis End -->
+            <!-- Plane Page Start -->
+            <li class="planePage test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-file" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Plane Page</span>
+              </div>
+            </li>
+            <!-- Plane Page End -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start Item Management -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              ITEM MANAGEMENT
+            </li>
+            <!-- End Item Management -->
+            <!-- Create New Item -->
+            <li class="createNewItem test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-plus-circle" style="font-size: 25px;"></i>
+              <span class="" style="font-size: 25px;">Create New Item</span>
+              </div>
+            </li>
+            <!-- End Create New Item -->
+            <!-- Start Item List -->
+            <li class="itemList test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-list" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Item Lists</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">15</span>
+            </li>
+            <!-- End Item List -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start user management -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              USER MANAGEMENT
+            </li>
+            <!-- End user management -->
+            <!-- Start create user -->
+            <li class="createUser test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-plus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Create User</span>
+              </div>
+            </li>
+            <!-- End create user -->
+            <!-- Start manage user -->
+            <li class="manageUse test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-users" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Manage Users</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">150</span>
+            </li>
+            <!-- End manage user -->
+            <!-- Start baned user -->
+            <li class="banedUser test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-minus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Baned Users</span>
+              </div>
+            </li>
+            <!-- End baned user -->
+            <!-- Start user analysis -->
+            <li class="userAnalysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-crosshair" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">User Analysis</span>
+              </div>
+            </li>
+            <!-- End user analysis -->
+            <!-- Start Spacing -->
+            <li class="spacing p-2"></li>
+            <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start Inventory Header -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              INVENTORY
+            </li>
+            <!-- End Inventory Header -->
+            <!-- Start create new stock -->
+            <li class="createNewStock test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-file-plus" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Create New Stock</span>
+              </div>
+            </li>
+            <!-- End create new stock -->
+            <!-- Start all stock -->
+            <li class="allStock test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-gift" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">All Stock</span>
+              </div>
+            </li>
+            <!-- End all stock -->
+            <!-- Start out of stock -->
+            <li class="outOfStock test">
+              <div class="hoveLi p-2 rounded-2 d-flex justify-content-between align-items-center">
+                <div class="itemList">
+                  <i class="feather feather-archive" style="font-size: 25px;"></i>
+                  <span class="" style="font-size: 25px;">Out of Stock</span>
+                </div>
+                <span class="badge rounded-pill bg-light bg-gradient text-primary">200</span>
+            </li>
+            <!-- End out of stock -->
+            <!-- Start stock analysis -->
+            <li class="stockAnalysis test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-layers" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Stock Analysis</span>
+              </div>
+            </li>
+            <!-- End stock analysis -->
+            <!-- Start Spacing -->
+             <li class="spacing p-2"></li>
+             <li class="spacing p-2"></li>
+            <!-- End Spacing -->
+            <!-- Start User Profile Header -->
+            <li class="menuHeader text-black-50 " style="font-size: 20px;">
+              YOUR PROFILE
+            </li>
+            <!-- End User Profile Header -->
+            <!-- Start change password -->
+            <li class="changePasswords test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-lock" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Change Password</span>
+              </div>
+            </li>
+            <!-- End change password -->
+            <!-- Start edit profile -->
+            <li class="editProfile test">
+              <div class="hoveLi p-2 rounded-2">
+                <i class="feather feather-user-check" style="font-size: 25px;"></i>
+                <span class="" style="font-size: 25px;">Edit Profile</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9 col-12 productContainer bg-info">
+          <div class="col-12 bg-primary p-lg-4 p-2 rounded mt-2 d-flex justify-content-between productHeader">
+            <div class="menuBarControl d-block d-md-none">
+              <button class="btn btn-primary">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="inputBoxControl row justify-content-between">
+              <div class="input-group inputTag inputBarForMedia">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="searchIconContainer p-0">
+                <button class="btn btn-light">
+                  <i class="searchIcon fas fa-search text-primary"></i>
+                </button>
+              </div>
+            </div>
+            <div class="dropDownContainer">
+              <div class="dropdown bg-light rounded">
+                <img
+                  src="photo/download.jpeg"
+                  class="dropDownImg rounded-circle"
+                  alt=""
+                />
+                <button
+                  class="btn btn-light dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row cardsShowDiv">
+            <div class="col-12 col-md-6 col-lg-3 cardItems" onclick="jumpDataTable('bootstrapProjectdataTable.html')">
+              <div class="card my-2">
+                <div class="card-body d-flex">
+                  <div class=" col-6 d-flex align-items-center justify-content-center">
+                    <i class=" feather-shopping-bag text-primary" style="font-size: 50px;"></i>
+                  </div>
+                  <div class=" col-6" style="user-select: none; cursor: pointer;">
+                    <p class=" m-0" style="font-size: 30px;font-weight: bolder;">1300</p>
+                    <p class=" m-0">Total Orders</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 cardItems" onclick="jumpDataTable('bootstrapProjectdataTable.html')">
+              <div class="card my-2">
+                <div class="card-body d-flex">
+                  <div class=" col-6 d-flex align-items-center justify-content-center">
+                    <i class=" feather-users text-primary" style="font-size: 50px;"></i>
+                  </div>
+                  <div class=" col-6" style="user-select: none; cursor: pointer;">
+                    <p class=" m-0 totalCustomer" style="font-size: 30px;font-weight: bolder;">3500</p>
+                    <p class=" m-0">Total Customers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 cardItems" onclick="jumpDataTable('bootstrapProjectdataTable.html')">
+              <a href="https://www.w3schools.com"></a>
+              <div class="card my-2">
+                <div class="card-body d-flex">
+                  <div class=" col-6 d-flex align-items-center justify-content-center">
+                    <i class=" feather-package text-primary" style="font-size: 50px;"></i>
+                  </div>
+                  <div class=" col-6" style="user-select: none; cursor: pointer;">
+                    <p class=" m-0" style="font-size: 30px;font-weight: bolder;">2340</p>
+                    <p class=" m-0">Total Products</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 cardItems" onclick="jumpDataTable('bootstrapProjectdataTable.html')">
+              <a href="https://www.w3schools.com"></a>
+              <div class="card my-2">
+                <div class="card-body d-flex">
+                  <div class=" col-6 d-flex align-items-center justify-content-center">
+                    <i class=" feather-map-pin text-primary" style="font-size: 50px;"></i>
+                  </div>
+                  <div class=" col-6" style="user-select: none; cursor: pointer;">
+                    <p class=" m-0" style="font-size: 30px;font-weight: bolder;">130</p>
+                    <p class=" m-0">Support Location</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-end anlysisChartAndSaleItem">
+            <div class="col-12 col-md-7 anylysisChart">
+              <div class="card">
+                <div class=" card-header" style="text-align: center;font-weight: bold;font-size:  ;">Sale and Order anylysis chart</div>
+                <div class="card-body">
+                  <canvas id="myChart" width="400" height="300"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 saleItem overflow-hidden">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-top: 190px;">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner overflow-visible">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <div class="card-body d-flex justify-content-between">
+                        <div class="saleItemName d-flex flex-column justify-content-center">
+                          <p class="m-0" style="font-size: 30px; font-weight: bolder;">Coffee</p>
+                          <p class="m-0 text-black-50" style="font-size: 20px; font-weight: bolder;">500 MMK</p>
+                        </div>
+                        <img src="photo/item1.png" class="saleItemImg" alt=""> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div class="card-body d-flex justify-content-between">
+                        <div class="saleItemName d-flex flex-column justify-content-center">
+                          <p class="m-0" style="font-size: 30px; font-weight: bolder;">Memory Stick</p>
+                          <p class="m-0 text-black-50" style="font-size: 20px; font-weight: bolder;">15000 MMK</p>
+                        </div>
+                        <img src="photo/item2.png" class="saleItemImg" alt=""> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div class="card-body d-flex justify-content-between">
+                        <div class="saleItemName d-flex flex-column justify-content-center">
+                          <p class="m-0" style="font-size: 30px; font-weight: bolder;">Note Book</p>
+                          <p class="m-0 text-black-50" style="font-size: 20px; font-weight: bolder;">5000 MMK</p>
+                        </div>
+                        <img src="photo/item3.png" class="saleItemImg" alt=""> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                </a>
+              </div>
+    
+            </div>
+          </div>
+          <div class="doughnutChartAndTable row" style="margin-top: 10px;">
+              <div class="col-12 col-md-6">
+                <div class="card">
+                  <div class="card-header" style="text-align: center;font-weight: bold;font-size:   ">Total Shop Location Support</div>
+                  <div class="card-body">
+                    <canvas id="doughnutChart" width="400" height="300"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card theBestSaleTable" style="height: 731px; overflow-x: hidden;">
+                  <div class="card-body">
+                      <div class="card-head">
+                        <header>The best sale item per month</header>
+                        <div class="tools">
+                          <a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
+                          <a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
+                          <a class="t-close btn-color fa fa-times" href="javascript:;"></a>
+                        </div>
+                      </div>
+                      <div class="card-body ">
+                        <div class="table-wrap">
+                          <div class="table-responsive tblHeightSet">
+                            <table class="table display product-overview mb-30" id="support_table">
+                              <thead>
+                                <tr>
+                                  <th>#</th>
+                                  <th>Code</th>
+                                  <th>Items</th>
+                                  <th>Amount</th>
+                                  <th>Stock</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>102</td>
+                                  <td>Premier</td>
+                                  <td>1 Queen-sized bed, arm chair</td>
+                                  <td>$25</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>202</td>
+                                  <td>Deluxe</td>
+                                  <td>1 Queen-sized bed, patio chairs</td>
+                                  <td>$40</td>
+                                  <td>
+                                    <span class="label label-sm label-danger"> Booked </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>706</td>
+                                  <td>Triple</td>
+                                  <td>1 Queen-sized bed &amp; 1 single bed</td>
+                                  <td>$62</td>
+                                  <td>
+                                    <span class="label label-sm label-warning">Maintenance</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>102</td>
+                                  <td>Premier</td>
+                                  <td>1 Queen-sized bed, arm chair</td>
+                                  <td>$25</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>202</td>
+                                  <td>Deluxe</td>
+                                  <td>1 Queen-sized bed, patio chairs</td>
+                                  <td>$40</td>
+                                  <td>
+                                    <span class="label label-sm label-danger"> Booked </span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-danger">Booked</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>102</td>
+                                  <td>Premier</td>
+                                  <td>1 Queen-sized bed, arm chair</td>
+                                  <td>$25</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-danger">Booked</span>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr> <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr> <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr> <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr> <tr>
+                                  <td>104</td>
+                                  <td>Twin</td>
+                                  <td>2 single-beds </td>
+                                  <td>$45</td>
+                                  <td>
+                                    <span class="label label-sm label-success">Available</span>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="boostrapProject.js"></script>
+    <script src="fontawesome-free-5.15.4-web/js/all.min.js"></script>
+    <script src="feather-icons-web/demo.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>            
